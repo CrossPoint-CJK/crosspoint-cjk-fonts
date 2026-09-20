@@ -7,7 +7,7 @@ This specification defines the public web catalog for `aBER0724/crosspoint-cjk-f
 The deliverable is a static GitHub Pages site at:
 
 ```text
-https://aber0724.github.io/crosspoint-cjk-fonts/
+https://crosspoint-cjk.github.io/crosspoint-cjk-fonts/
 ```
 
 The site presents the current `.cpfont` version 4 catalog described by `fonts.json` schema version 2. GitHub Release remains the binary distribution channel; Pages hosts only HTML, CSS, JavaScript, JSON metadata, and compact previews.
@@ -87,7 +87,7 @@ site-dist/
   "schemaVersion": 1,
   "cpfontVersion": 4,
   "manifestVersion": 2,
-  "siteUrl": "https://aber0724.github.io/crosspoint-cjk-fonts/",
+  "siteUrl": "https://crosspoint-cjk.github.io/crosspoint-cjk-fonts/",
   "manifestUrl": "https://github.com/aBER0724/crosspoint-cjk-fonts/releases/download/sd-fonts-m2-b4/fonts.json",
   "fontMakerUrl": "https://github.com/aBER0724/crosspoint-cjk-font-maker",
   "previewSizes": [14, 18, 22],
