@@ -54,11 +54,19 @@ jobs:
           --output .cache/pages-fonts
           --sizes 14,18,22
       - name: Build static catalog
-        run: >-
-          python scripts/build_pages.py
-          --manifest release-assets/fonts.json
-          --fonts .cache/pages-fonts
-          --output site-dist
+        run: |
+          owner="$(printf '%s' "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')"
+          repo="${GITHUB_REPOSITORY#*/}"
+          if [ "$repo" = "$owner.github.io" ]; then
+            site_url="https://$owner.github.io/"
+          else
+            site_url="https://$owner.github.io/$repo/"
+          fi
+          python scripts/build_pages.py \
+            --manifest release-assets/fonts.json \
+            --fonts .cache/pages-fonts \
+            --output site-dist \
+            --site-url "$site_url"
       - run: python -m unittest discover -s tests -v
       - run: |
           test -f site-dist/index.html

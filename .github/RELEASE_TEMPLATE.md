@@ -20,7 +20,7 @@ Remove any empty change section before publishing. The automated Release workflo
 
 ### Installation
 
-Browse previews and download individual physical sizes from the [CrossPoint CJK font catalog](https://aber0724.github.io/crosspoint-cjk-fonts/). Device downloads continue to use this GitHub Release directly.
+Browse previews and download individual physical sizes from the [CrossPoint CJK font catalog](https://crosspoint-cjk.github.io/crosspoint-cjk-fonts/). Device downloads continue to use this GitHub Release directly.
 
 ### Verification
 

@@ -45,8 +45,8 @@ The ASCII `name` continues to define filenames such as `WenKaiCJK_14.cpfont`; Pa
 
 ## GitHub Pages catalog
 
-- Public URL: `https://aber0724.github.io/crosspoint-cjk-fonts/`
-- Web catalog endpoint: `https://aber0724.github.io/crosspoint-cjk-fonts/catalog.json`
+- Public URL: `https://crosspoint-cjk.github.io/crosspoint-cjk-fonts/`
+- Web catalog endpoint: `https://crosspoint-cjk.github.io/crosspoint-cjk-fonts/catalog.json`
 - Editorial card layout with Simplified Chinese, Traditional Chinese, Japanese, and English UI.
 - Each family keeps its stable ASCII `name` for `.cpfont` filenames and firmware compatibility, while `display_names` provides the reader-facing `en` / `zh` / `ja` title used by Pages.
 - The current locale selects the card title; the stable ID remains visible below it, and search matches both localized titles and the ID.

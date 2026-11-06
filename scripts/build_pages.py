@@ -257,7 +257,7 @@ def main() -> int:
     parser.add_argument("--fonts", required=True, type=Path)
     parser.add_argument("--source", default="pages", type=Path)
     parser.add_argument("--output", default="site-dist", type=Path)
-    parser.add_argument("--site-url", default="https://aber0724.github.io/crosspoint-cjk-fonts/")
+    parser.add_argument("--site-url", default="https://crosspoint-cjk.github.io/crosspoint-cjk-fonts/")
     parser.add_argument(
         "--manifest-url",
         default="https://github.com/aBER0724/crosspoint-cjk-fonts/releases/download/sd-fonts-m2-b4/fonts.json",
